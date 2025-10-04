@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Platform Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        .section { margin-bottom: 40px; }
+        .code { background: #f4f4f4; padding: 10px; border-left: 4px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Pet Adoption Platform Documentation</h1>
+    <p>This comprehensive documentation covers the Pet Adoption Platform, a full-stack web application designed to facilitate pet adoption processes. This document is structured to provide detailed information for developers, administrators, and users.</p>
+
+    <div class="section">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#architecture">System Architecture</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#installation">Installation Guide</a></li>
+            <li><a href="#configuration">Configuration</a></li>
+            <li><a href="#api">API Reference</a></li>
+            <li><a href="#database">Database Schema</a></li>
+            <li><a href="#frontend">Frontend Components</a></li>
+            <li><a href="#backend">Backend Services</a></li>
+            <li><a href="#security">Security Measures</a></li>
+            <li><a href="#testing">Testing</a></li>
+            <li><a href="#deployment">Deployment</a></li>
+            <li><a href="#troubleshooting">Troubleshooting</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="#changelog">Changelog</a></li>
+        </ol>
+    </div>
+
+    <div id="introduction" class="section">
+        <h2>1. Introduction</h2>
+        <p>The Pet Adoption Platform is a modern web application built with React for the frontend and Node.js/Express for the backend. It aims to connect pet owners with potential adopters, providing a seamless experience for pet adoption.</p>
+        <h3>1.1 Purpose</h3>
+        <p>The platform serves multiple stakeholders:</p>
+        <ul>
+            <li>Pet shelters and rescue organizations</li>
+            <li>Individual pet owners</li>
+            <li>Potential adopters</li>
+            <li>Animal welfare advocates</li>
+        </ul>
+        <h3>1.2 Key Objectives</h3>
+        <ul>
+            <li>Reduce the number of homeless pets</li>
+            <li>Facilitate responsible pet adoption</li>
+            <li>Provide tools for pet management</li>
+            <li>Create a community around pet welfare</li>
+        </ul>
+    </div>
+
+    <div id="architecture" class="section">
+        <h2>2. System Architecture</h2>
+        <p>The application follows a microservices architecture with clear separation of concerns.</p>
+        <h3>2.1 Frontend Architecture</h3>
+        <p>The frontend is built using React with the following structure:</p>
+        <ul>
+            <li>Components: Reusable UI components</li>
+            <li>Pages: Route-based page components</li>
+            <li>Services: API communication layer</li>
+            <li>Utils: Helper functions and utilities</li>
+            <li>Hooks: Custom React hooks</li>
+        </ul>
+        <h3>2.2 Backend Architecture</h3>
+        <p>The backend consists of RESTful APIs built with Express.js:</p>
+        <ul>
+            <li>Routes: API endpoint definitions</li>
+            <li>Controllers: Business logic handlers</li>
+            <li>Models: Data models and database interactions</li>
+            <li>Middleware: Authentication, validation, error handling</li>
+            <li>Services: External service integrations</li>
+        </ul>
+        <h3>2.3 Database Design</h3>
+        <p>The application uses MongoDB for flexible data storage with the following collections:</p>
+        <ul>
+            <li>Users: User accounts and profiles</li>
+            <li>Pets: Pet listings and information</li>
+            <li>Adoptions: Adoption records</li>
+            <li>Messages: Communication between users</li>
+        </ul>
+    </div>
+
+    <div id="features" class="section">
+        <h2>3. Features</h2>
+        <h3>3.1 User Management</h3>
+        <ul>
+            <li>User registration and authentication</li>
+            <li>Profile management</li>
+            <li>Role-based access control (Admin, Shelter, Adopter)</li>
+            <li>Password reset functionality</li>
+        </ul>
+        <h3>3.2 Pet Management</h3>
+        <ul>
+            <li>Add new pet listings</li>
+            <li>Edit pet information</li>
+            <li>Upload pet photos</li>
+            <li>Mark pets as adopted</li>
+            <li>Search and filter pets</li>
+        </ul>
+        <h3>3.3 Adoption Process</h3>
+        <ul>
+            <li>Express interest in pets</li>
+            <li>Application submission</li>
+            <li>Application review process</li>
+            <li>Adoption approval workflow</li>
+        </ul>
+        <h3>3.4 Communication</h3>
+        <ul>
+            <li>In-app messaging system</li>
+            <li>Email notifications</li>
+            <li>Adoption status updates</li>
+        </ul>
+    </div>
+
+    <div id="installation" class="section">
+        <h2>4. Installation Guide</h2>
+        <h3>4.1 Prerequisites</h3>
+        <ul>
+            <li>Node.js (version 16 or higher)</li>
+            <li>MongoDB (version 4.4 or higher)</li>

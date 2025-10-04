@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Barlow";
+    src: url(../public/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: "Grenda";
+    src: url(../public/Grenda-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "Grenda", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}

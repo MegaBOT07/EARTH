@@ -1,0 +1,3 @@
+- [x] Update src/components/Landing.jsx to import and render Navigation, HeroSection, BrandSection, FutureSection with the proper structure and background.
+- [x] Update src/App.jsx to import Landing, remove state, switch logic, and extra imports, simplify to render <Landing />.
+- [ ] Run npm run dev to test the changes.
